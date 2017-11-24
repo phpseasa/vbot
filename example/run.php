@@ -1,9 +1,7 @@
 <?php
 
-namespace Hanson\Vbot\Example;
-
 require __DIR__.'/../vendor/autoload.php';
 
-$vbot = new Example();
+$vbot = new \Hanson\Vbot\Example\Example();
 
 $vbot->run();
